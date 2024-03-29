@@ -1,0 +1,73 @@
+.portfolio_box{
+    background-color: rgba(243, 203, 151, 0.428); 
+    width: 700px;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    border-radius: 10px;
+    padding: 5px 55px;
+    padding-bottom: 50px;
+
+    @media(max-width: 1010px){
+        width: 85vw;
+        padding: 5px 10px;
+        padding-bottom: 25px;
+
+    }
+}
+
+.portfolio_box h1{
+    margin-top: 40px;
+    color: rgb(7, 49, 39);
+}
+
+.portfolio_box p{
+    font-size: 1.2rem;
+}
+
+.port_img{
+    width: 80%;
+}
+
+.button_container button{
+    
+    padding: 8px 60px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 1.2em .5em;
+
+    @media (max-width: 1010px) {
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+
+}
+
+.b_access{
+    background-image: linear-gradient(to right, #80f0e0, rgb(26, 130, 106));
+    transition: 1.8s;
+    
+}
+
+.b_access:hover {
+    background-image: linear-gradient(to right, #aff6ec, rgb(87, 196, 170));
+    font-size: 1.3em; 
+}
+
+.b_repository{
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    transition: 0.8s;
+
+    
+    
+}
+
+.b_repository:hover {
+    background-color: rgb(198, 198, 198);
+    color: black;
+    font-size: 1.3em;   
+}
