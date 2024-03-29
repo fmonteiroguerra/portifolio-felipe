@@ -16,7 +16,7 @@ const Portfolio = () => {
     >
 
 <div className={styles.portfolio_box}>
-        <h1>CollabTech</h1>
+        <h1>TechCollab</h1>
         <img className={styles.port_img} src={blog} alt="" />
         <p>
           <strong>[React (including React Hooks, Customized Hooks, Reat-Router-Dom and Context API), Javascript, CSS, HTML, Backend created with Firebase]</strong>
@@ -29,7 +29,7 @@ const Portfolio = () => {
             <button className={styles.b_access}> Access Page</button>
           </a>
           <a
-            href="https://github.com/fmonteiroguerra/tech-collab-blog"
+            href="https://github.com/fmonteiroguerra/tech-collab-community"
             target="_blank"
           >
             <button className={styles.b_repository}>
