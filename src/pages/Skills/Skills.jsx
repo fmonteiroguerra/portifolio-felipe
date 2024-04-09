@@ -91,12 +91,21 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className={styles.skill_languages}>
+      <div className={styles.softskills}>
+        <h1>Soft Skills</h1>
         <p>
-          Enthusiastic Learner: Eager to expand knowledge. Problem Solver:
-          Collaborative team player with a knack for solving problems.
-          Passionate: Committed to delivering easy to use, robust and secure
-          solutions.
+          During my professional and personal life I had the opportunity to
+          develop some soft skills. I consider the main ones to be:
+        </p>
+
+        <p>
+          <strong>Enthusiastic Learner:</strong> Eager to expand knowledge.
+          <br />
+          <strong>Problem Solver:</strong> Collaborative team member with a knack for solving
+          problems. 
+          <br />
+          <strong>Passionate:</strong> Committed to delivering easy to use, robust and
+          long-lasting solutions.
         </p>
       </div>
 

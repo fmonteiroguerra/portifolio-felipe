@@ -6,7 +6,7 @@
 }
 
 .skill p{
-    color: rgb(248, 220, 220); 
+    color: rgb(24, 21, 21); 
     margin-top: 50px;
     font-size: 1.2em;
 }
@@ -100,4 +100,25 @@
 
 .cv:hover{
     font-size: 1.5rem;
+}
+
+
+.softskills{
+    background-color: rgba(243, 203, 151, 0.271); 
+    color: black;
+    width: 700px;
+    min-height: 410px;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    border-radius: 10px;
+    padding: 5px 55px;
+    padding-bottom: 50px;
+
+    @media(max-width: 1010px){
+        width: 85vw;
+        padding: 5px 10px;
+        min-height: 560px;
+
+    }
 }

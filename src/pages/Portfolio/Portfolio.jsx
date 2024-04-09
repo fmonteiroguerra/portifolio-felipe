@@ -55,7 +55,7 @@ const Portfolio = () => {
             <button className={styles.b_access}> Access Page</button>
           </a>
           <a
-            href="https://github.com/fmonteiroguerra/REACT-Game-SecretWord"
+            href="https://github.com/fmonteiroguerra/secretword"
             target="_blank"
           >
             <button className={styles.b_repository}>
