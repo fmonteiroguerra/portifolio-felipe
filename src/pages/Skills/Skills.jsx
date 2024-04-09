@@ -5,10 +5,11 @@ import { motion } from "framer-motion";
 
 const Skills = () => {
   return (
-    <motion.div className={styles.skill}
-    initial={{x: -1000}}
-    animate={{x: 0}}
-    exit={{x: window.innerWidth, transition: {duration:0.1}}}
+    <motion.div
+      className={styles.skill}
+      initial={{ x: -1000 }}
+      animate={{ x: 0 }}
+      exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
     >
       <div className={styles.skill_tech}>
         <h1>Main Tech Skills</h1>
@@ -89,7 +90,25 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <div className={styles.container_cv}><a className={styles.cv} href="../../../assets/cv-felipe-monteiro-english.pdf" download>Download CV</a></div>
+
+      <div className={styles.skill_languages}>
+        <p>
+          Enthusiastic Learner: Eager to expand knowledge. Problem Solver:
+          Collaborative team player with a knack for solving problems.
+          Passionate: Committed to delivering easy to use, robust and secure
+          solutions.
+        </p>
+      </div>
+
+      <div className={styles.container_cv}>
+        <a
+          className={styles.cv}
+          href="../../../assets/cv-felipe-monteiro-english.pdf"
+          download
+        >
+          Download CV
+        </a>
+      </div>
     </motion.div>
   );
 };

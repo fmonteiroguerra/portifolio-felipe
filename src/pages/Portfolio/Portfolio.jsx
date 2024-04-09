@@ -51,7 +51,7 @@ const Portfolio = () => {
           A fun and challenging game where you have to discover the secret word.
         </p>
         <div className={styles.button_container}>
-          <a href="https://react-game-secretword.onrender.com/" target="_blank">
+          <a href="https://secretwordreact.onrender.com" target="_blank">
             <button className={styles.b_access}> Access Page</button>
           </a>
           <a
