@@ -5,6 +5,7 @@ import crudjs from "../../assets/crudjs.jpg";
 import angular_nasa from "../../assets/angular-nasa.jpg";
 import porto_inside from "../../assets/porto-inside.jpg";
 import blog from "../../assets/blog.jpg";
+import portfolio from "../../assets/portfolio.jpg";
 import { motion } from "framer-motion";
 
 const Portfolio = () => {
@@ -14,15 +15,19 @@ const Portfolio = () => {
       animate={{ x: 0 }}
       exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
     >
-
-<div className={styles.portfolio_box}>
+      <div className={styles.portfolio_box}>
         <h1>TechCollab</h1>
         <img className={styles.port_img} src={blog} alt="" />
         <p>
-          <strong>[React (including React Hooks, Customized Hooks, Reat-Router-Dom and Context API), Javascript, CSS, HTML, Backend created with Firebase]</strong>
+          <strong>
+            [React (including React Hooks, Customized Hooks, Reat-Router-Dom and
+            Context API), Javascript, CSS, HTML, Backend created with Firebase]
+          </strong>
         </p>
         <p>
-        A Blog where everyone can collab. <br /> Create easily your User to try it (no need to confirm email), begin to create posts and manage them on your Dashboard (edit, delete).
+          A Blog where everyone can collab. <br /> Create easily your User to
+          try it (no need to confirm email), begin to create posts and manage
+          them on your Dashboard (edit, delete).
         </p>
         <div className={styles.button_container}>
           <a href="https://techcollab.onrender.com/" target="_blank">
@@ -40,7 +45,6 @@ const Portfolio = () => {
         </div>
       </div>
 
-
       <div className={styles.portfolio_box}>
         <h1>Secret Word (game)</h1>
         <img className={styles.port_img} src={secret} alt="" />
@@ -48,7 +52,9 @@ const Portfolio = () => {
           <strong>[React, Javascript, CSS, HTML]</strong>
         </p>
         <p>
-          A fun and challenging game where you have to discover the secret word.
+          A fun and challenging game that draws words for you to guess. You have
+          a limited number of chances, the wrong guessings will be displayed and
+          you earn cumulative points when you guess right.
         </p>
         <div className={styles.button_container}>
           <a href="https://secretwordreact.onrender.com" target="_blank">
@@ -61,6 +67,32 @@ const Portfolio = () => {
             <button className={styles.b_repository}>
               {" "}
               &lt; Repository / &gt;{" "}
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div className={styles.portfolio_box}>
+        <h1>Portfolio WebSite</h1>
+        <img className={styles.port_img} src={portfolio} alt="" />
+        <p>
+          <strong>
+            [React (including React Hooks, Customized Hooks, Reat-Router-Dom),
+            Javascript, CSS, HTML, Framer Motion]
+          </strong>
+        </p>
+        <p>
+          A responsive and animated WebSite made as Single Page Aplication
+          focused to share a bit of my frontend experience.
+        </p>
+        <div className={styles.button_container}>
+          <a href="https://felipemonteiro.onrender.com/" target="_blank">
+            <button className={styles.b_access}> Access Page</button>
+          </a>
+          <a>
+            <button className={styles.b_repository}>
+              {" "}
+              &lt; Code Reserved for now / &gt;{" "}
             </button>
           </a>
         </div>

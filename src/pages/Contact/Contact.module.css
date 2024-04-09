@@ -1,5 +1,5 @@
 .contact{
-    background-color: rgba(243, 203, 151, 0.271); 
+    background-color: rgba(243, 203, 151, 0.428);
     width: 700px;
     margin: auto;
     margin-top: 1em;
@@ -13,6 +13,11 @@
         padding: 55px 10px;
         padding-bottom: 25px;
     }
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
 }
 
 .contact h1{
