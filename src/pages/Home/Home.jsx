@@ -17,7 +17,7 @@ const Home = () => {
 
           <a
             className={styles.cv}
-            href="../../../assets/cv-felipe-monteiro-english.pdf"
+            href="../../../assets/cv-felipe-monteiro-frontend-dev.pdf"
             download
           >
             Download CV
