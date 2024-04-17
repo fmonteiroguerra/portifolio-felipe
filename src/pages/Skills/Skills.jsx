@@ -99,13 +99,14 @@ const Skills = () => {
         </p>
 
         <p>
-          <strong>Enthusiastic Learner:</strong> Eager to expand knowledge.
-          <br />
+          
           <strong>Problem Solver:</strong> Collaborative team member with a knack for solving
           problems. 
           <br />
           <strong>Passionate:</strong> Committed to delivering easy to use, robust and
           long-lasting solutions.
+          <br />
+          <strong>Enthusiastic Learner:</strong> Eager to expand knowledge.
         </p>
       </div>
 

@@ -20,7 +20,7 @@ const Portfolio = () => {
         <img className={styles.port_img} src={blog} alt="" />
         <p>
           <strong>
-            [React (including React Hooks, Customized Hooks, Reat-Router-Dom and
+            [React (including React Hooks, Customized Hooks, React-Router-Dom and
             Context API), Javascript, CSS, HTML, Backend created with Firebase]
           </strong>
         </p>
@@ -119,7 +119,7 @@ const Portfolio = () => {
       </div>
 
       <div className={styles.portfolio_box}>
-        <h1>Astronomy Photo of The Day (Consuming Nasa API's)</h1>
+        <h1>Astronomy Photo of The Day (Consuming Nasa's API)</h1>
         <img className={styles.port_img} src={angular_nasa} alt="" />
         <p>
           <strong>[Angular, TypeScript, Bootstrap, CSS, HTML]</strong>
@@ -127,7 +127,7 @@ const Portfolio = () => {
         <p>
           Consumes 2 Nasa Api's (Apod & NeoWs). Each date chosen will bring the
           photo and information posted that date by NASA and the number of
-          asteroids.{" "}
+          asteroids found near earth.{" "}
         </p>
         <div className={styles.button_container}>
           <a href="https://angular-nasa-api.onrender.com/" target="_blank">
