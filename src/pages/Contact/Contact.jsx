@@ -10,7 +10,7 @@ const Contact = () => {
       animate={{ x: 0 }}
       exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
     >
-      <h1>Say Hi! :&#41;</h1>
+      <h1>Feel free to say Hi! :&#41;</h1>
       <div className={styles.contact_box}>
         <div className={styles.contact_items}>
           <img src="../../assets/mail.svg" alt="" />
@@ -41,15 +41,13 @@ const Contact = () => {
         </div>
       </div>
       <div className={styles.located}>
-        <h1>Located in</h1>
-        <p>Ermesinde - Porto Metropolitan Area - PORTUGAL</p>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124587.6466060275!2d-8.640809258813686!3d41.195746140328346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24614111b8595d%3A0xcdeb019560b02e0!2sErmesinde!5e0!3m2!1spt-PT!2spt!4v1710933893123!5m2!1spt-PT!2spt"
-          width="500"
+        <h1>Location:</h1>
+        <p>Porto - PORTUGAL</p>
+
+        <img src="../../../assets/portobridge.png" alt="porto-picture" width="500"
           height="350"
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        ></iframe>
+          loading="lazy"/>
+        
       </div>
     </motion.div>
   );

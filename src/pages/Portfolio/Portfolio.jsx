@@ -89,10 +89,13 @@ const Portfolio = () => {
           <a href="https://felipemonteiro.onrender.com/" target="_blank">
             <button className={styles.b_access}> Access Page</button>
           </a>
-          <a>
+           <a
+            href="https://github.com/fmonteiroguerra/portifolio-felipe"
+            target="_blank"
+          >
             <button className={styles.b_repository}>
               {" "}
-              &lt; Code Reserved for now / &gt;{" "}
+              &lt; Repository / &gt;{" "}
             </button>
           </a>
         </div>

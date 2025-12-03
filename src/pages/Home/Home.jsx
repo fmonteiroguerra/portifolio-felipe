@@ -56,8 +56,7 @@ const Home = () => {
         </p>
         <p>
         I really value clean and easily understandable code. Also I'm passionate
-          about UX / UI. And last but not least, I am a proud father of two
-          girls.
+          about UX / UI.
         </p>
       </div>
       <div className="mylinks">

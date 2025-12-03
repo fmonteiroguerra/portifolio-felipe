@@ -73,7 +73,7 @@
     font-size: 1.2em;
 }
 
-.located iframe{
+.located img{
     width: 55%;
 
     border-radius: 200px;
@@ -84,6 +84,6 @@
     }
 }
 
-.located iframe:hover{
+.located img:hover{
     transform: scale(1.1)
 }
