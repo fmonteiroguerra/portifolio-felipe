@@ -50,8 +50,8 @@ const Portfolio = () => {
         <img className={styles.port_img} src={blog} alt="" />
         <p>
           <strong>
-            [React (including React Hooks, Customized Hooks, React-Router-Dom and
-            Context API), Javascript, CSS, HTML, Backend created with Firebase]
+            - React (including React Hooks, Customized Hooks, React-Router-Dom and
+            Context API), Javascript, CSS, HTML, Backend created with Firebase
           </strong>
         </p>
         <p>
@@ -79,7 +79,7 @@ const Portfolio = () => {
         <h1>Secret Word (game)</h1>
         <img className={styles.port_img} src={secret} alt="" />
         <p>
-          <strong>[React, Javascript, CSS, HTML]</strong>
+          <strong>- React, Javascript, CSS, HTML</strong>
         </p>
         <p>
           A fun and challenging game that draws words for you to guess. You have
@@ -107,8 +107,8 @@ const Portfolio = () => {
         <img className={styles.port_img} src={portfolio} alt="" />
         <p>
           <strong>
-            [React (including React Hooks, Customized Hooks, Reat-Router-Dom),
-            Javascript, CSS, HTML, Framer Motion]
+            - React (including React Hooks, Customized Hooks, Reat-Router-Dom),
+            Javascript, CSS, HTML, Framer Motion
           </strong>
         </p>
         <p>
@@ -135,7 +135,7 @@ const Portfolio = () => {
         <h1>Car Stand Records (JavaScript CRUD)</h1>
         <img className={styles.port_img} src={crudjs} alt="" />
         <p>
-          <strong>[Javascript, Bootstrap 5, CSS, HTML]</strong>
+          <strong>- Javascript, Bootstrap 5, CSS, HTML </strong>
         </p>
         <p>Search, Add, Delete and Edit Car records </p>
         <div className={styles.button_container}>
@@ -155,7 +155,7 @@ const Portfolio = () => {
         <h1>Astronomy Photo of The Day (Consuming Nasa's API)</h1>
         <img className={styles.port_img} src={angular_nasa} alt="" />
         <p>
-          <strong>[Angular, TypeScript, Bootstrap, CSS, HTML]</strong>
+          <strong>- Angular, TypeScript, Bootstrap, CSS, HTML</strong>
         </p>
         <p>
           Consumes 2 Nasa Api's (Apod & NeoWs). Each date chosen will bring the
@@ -181,7 +181,7 @@ const Portfolio = () => {
         <h1>Porto Inside (Static Website)</h1>
         <img className={styles.port_img} src={porto_inside} alt="" />
         <p>
-          <strong>[HTML, CSS, Bootstrap]</strong>
+          <strong>- HTML, CSS, Bootstrap</strong>
         </p>
         <p>Discover more about the wonderful city of Porto.</p>
         <div className={styles.button_container}>
