@@ -5,6 +5,7 @@ import crudjs from "../../assets/crudjs.jpg";
 import angular_nasa from "../../assets/angular-nasa.jpg";
 import porto_inside from "../../assets/porto-inside.jpg";
 import blog from "../../assets/blog.jpg";
+import preview from "../../assets/preview.png";
 import portfolio from "../../assets/portfolio.jpg";
 import { motion } from "framer-motion";
 
@@ -15,6 +16,35 @@ const Portfolio = () => {
       animate={{ x: 0 }}
       exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
     >
+
+
+      <div className={styles.portfolio_box}>
+        <h1>Movies World</h1>
+        <img className={styles.port_img} src={preview} alt="" />
+        <p>
+          <strong>
+            - React, Javascript, RESTful Api (TMDB API), Vite, Tailwind CSS, Material UI (Modal), react-use (useDebounce)
+          </strong>
+        </p>
+        <p>
+          Web application for searching and discovering movies using The Movie Database (TMDB) API. Allows searching for movies by name, viewing the most popular ones, and consulting details of each movie in an interactive modal..
+        </p>
+        <div className={styles.button_container}>
+          <a href="https://movie-app-58qu.onrender.com/" target="_blank">
+            <button className={styles.b_access}> Access Page</button>
+          </a>
+          <a
+            href="https://github.com/fmonteiroguerra/movie-app"
+            target="_blank"
+          >
+            <button className={styles.b_repository}>
+              {" "}
+              &lt; Repository / &gt;{" "}
+            </button>
+          </a>
+        </div>
+      </div>
+
       <div className={styles.portfolio_box}>
         <h1>TechCollab</h1>
         <img className={styles.port_img} src={blog} alt="" />
