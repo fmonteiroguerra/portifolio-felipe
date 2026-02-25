@@ -54,7 +54,7 @@ const Home = () => {
          
         </p>
         <p>
-          With a strong foundation in
+          Holding a strong foundation in
           HTML, CSS, JavaScript and modern frameworks like React, I transform ideas into interactive and
           engaging digital experiences.
         </p>
