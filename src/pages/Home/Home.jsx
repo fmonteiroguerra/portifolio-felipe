@@ -1,5 +1,4 @@
 import React from "react";
-import myphoto from "../../assets/myphoto.jpg";
 import styles from "./Home.module.css";
 import { motion } from "framer-motion";
 
@@ -41,7 +40,7 @@ const Home = () => {
         </div>
         <img
           className={styles.profile}
-          src={myphoto}
+          src="/myphoto.jpg"
           alt="photo Felipe Monteiro Frontend Developer"
         />
       </div>
@@ -49,14 +48,15 @@ const Home = () => {
       <div className={styles.aboutme_box}>
         <h1>About me</h1>
         <p>
-          Hi, my name is Felipe Monteiro, I'm a Creativity Seeker and Frontend
-          Developer from Porto, Portugal. I´ve been developing a skill set in a
-          range of technologies and frameworks, including React.js and Yii2. 
-          {/*  Frontend developer with knowledge in React.js, JavaScript, REST APIs and others technologies. Passionate about developing reusable components. Experience in projects managed using Agile Methodologies. */}
+          With experience in high-performance projects and intuitive interfaces,
+          My focus is on delivering solutions that optimize processes and
+          provide significant results for companies.
+         
         </p>
         <p>
-        I really value clean and easily understandable code. Also I'm passionate
-          about UX / UI.
+          With a strong foundation in
+          HTML, CSS, JavaScript and modern frameworks like React, I transform ideas into interactive and
+          engaging digital experiences.
         </p>
       </div>
       <div className="mylinks">

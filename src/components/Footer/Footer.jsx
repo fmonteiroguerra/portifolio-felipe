@@ -4,7 +4,7 @@ import styles from './Footer.module.css'
 const Footer = () => {
   return (
     <div className={styles.footer}>
-        © Copyright 2024 - Felipe Monteiro    
+        © Copyright 2026 - Felipe Monteiro    
     </div>
   )
 }
