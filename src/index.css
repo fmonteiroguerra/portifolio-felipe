@@ -4,7 +4,7 @@ body{
   margin: 0;
   font-family: "Montserrat", sans-serif;
   background-color: #033E44;
-  background-image: url('./public/back.jpg');
+  background-image: url('./assets/back.jpg');
   background-size: unset;
   background-repeat: repeat-y;
   background-position: center top;
