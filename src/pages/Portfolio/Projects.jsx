@@ -10,7 +10,7 @@ const Projects = ({project: {title, image, stackDescription, projectDescription,
                 <img className={styles.port_img} src={image} alt="" />
                 <p>
                   <strong>
-                    - {stackDescription}
+                    {stackDescription}
                   </strong>
                 </p>
                 <p>

@@ -10,7 +10,7 @@ const Portfolio = () => {
       title: "Movies World",
       image: "./preview.png",
       stackDescription:
-        "React, Javascript, RESTful Api (TMDB API), Vite, Tailwind CSS, Material UI (Modal), react-use (useDebounce)",
+        "React | Javascript | RESTful Api (TMDB API) | Vite | Tailwind CSS | Material UI (Modal) | react-use (useDebounce)",
       projectDescription:
         "Web application for searching and discovering movies using The Movie Database (TMDB) API. Allows searching for movies by name, viewing the most popular ones, and consulting details of each movie in an interactive modal.",
       pageLink: "https://movie-app-58qu.onrender.com/",
@@ -20,7 +20,7 @@ const Portfolio = () => {
       title: "TechCollab",
       image: "./blog.jpg",
       stackDescription:
-        "React (including React Hooks, Customized Hooks, React-Router-Dom and Context API), Javascript, CSS, HTML, Backend created with Firebase",
+        "React (including React Hooks | Customized Hooks | React-Router-Dom and Context API) | Javascript | CSS | HTML | Backend created with Firebase",
       projectDescription:
         "A Blog where everyone can collab. Create easily your User to try it (no need to confirm email), begin to create posts and manage them on your Dashboard (edit, delete).",
       pageLink: "https://techcollab.onrender.com/",
@@ -29,7 +29,7 @@ const Portfolio = () => {
     {
       title: "Secret Word (game)",
       image: "./secret2.jpg",
-      stackDescription: "React, Javascript, CSS, HTML",
+      stackDescription: "React | Javascript | CSS | HTML",
       projectDescription:
         "A fun and challenging game that draws words for you to guess. You have a limited number of chances, the wrong guessings will be displayed and you earn cumulative points when you guess right.",
       pageLink: "https://secretwordreact.onrender.com",
@@ -39,7 +39,7 @@ const Portfolio = () => {
       title: "Portfolio WebSite",
       image: "./portfolio.jpg",
       stackDescription:
-        "React (including React Hooks, Customized Hooks, Reat-Router-Dom), Javascript, CSS, HTML, Framer Motion",
+        "React (including React Hooks | Customized Hooks | Reat-Router-Dom) | Javascript | CSS | HTML | Framer Motion",
       projectDescription:
         "A responsive and animated WebSite made as Single Page Aplication focused to share a bit of my frontend experience.",
       pageLink: "https://felipemonteiro.onrender.com/",
@@ -48,7 +48,7 @@ const Portfolio = () => {
     {
       title: "Astronomy Photo of The Day (Consuming Nasa's API)",
       image: "./angular-nasa.jpg",
-      stackDescription: "Angular, TypeScript, Bootstrap, CSS, HTML",
+      stackDescription: "Angular | RESTful API | RxJS | TypeScript | Bootstrap | CSS | HTML",
       projectDescription:
         "Consumes 2 Nasa Api's (Apod & NeoWs). Each date chosen will bring the photo and information posted that date by NASA and the number of asteroids found near earth.",
       pageLink: "https://angular-nasa-api.onrender.com/",
@@ -57,7 +57,7 @@ const Portfolio = () => {
     {
       title: "Car Stand Records (JavaScript CRUD)",
       image: "./crudjs.jpg",
-      stackDescription: "Javascript, Bootstrap 5, CSS, HTML",
+      stackDescription: "Javascript | Bootstrap | CSS | HTML",
       projectDescription: "Search, Add, Delete and Edit Car records",
       pageLink: "https://durative-yolks.000webhostapp.com/#",
       githubLink: "https://github.com/fmonteiroguerra/js-crud",
@@ -66,7 +66,7 @@ const Portfolio = () => {
     {
       title: "Porto Inside (Static Website)",
       image: "./porto-inside.jpg",
-      stackDescription: "HTML, CSS, Bootstrap",
+      stackDescription: "HTML | CSS | Bootstrap",
       projectDescription: "Discover more about the wonderful city of Porto.",
       pageLink: "https://chorographic-coil.000webhostapp.com/index.html",
       githubLink: "https://github.com/fmonteiroguerra/WebSite-Porto-Inside",
