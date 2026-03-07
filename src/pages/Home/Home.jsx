@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import styles from "./Home.module.css";
 import { motion } from "framer-motion";
 
@@ -51,12 +51,11 @@ const Home = () => {
           With experience in high-performance projects and intuitive interfaces,
           My focus is on delivering solutions that optimize processes and
           provide significant results for companies.
-         
         </p>
         <p>
-          Holding a strong foundation in
-          HTML, CSS, JavaScript and modern frameworks like React, I transform ideas into interactive and
-          engaging digital experiences.
+          Holding a strong foundation in HTML, CSS, JavaScript and modern
+          frameworks like React, I transform ideas into interactive and engaging
+          digital experiences.
         </p>
       </div>
       <div className="mylinks">
