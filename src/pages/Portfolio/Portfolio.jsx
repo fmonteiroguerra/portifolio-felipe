@@ -8,7 +8,7 @@ const Portfolio = () => {
   const [projects, setProjects] = useState([
     {
       title: "Movies World",
-      image: "./cliniora.png",
+      image: "./cliniora.jpg",
       stackDescription:
         "Next.js 16 (App Router) | TypeScript | TypeScript | Supabase | Stripe | Resend | Vercel",
       projectDescription:        "Cliniora — Clinical Scheduling SaaS Online scheduling platform for healthcare professionals in Portugal. Allows clinics to receive appointments 24 hours a day through a personalized public page, eliminating dependence on the telephone and WhatsApp.",
