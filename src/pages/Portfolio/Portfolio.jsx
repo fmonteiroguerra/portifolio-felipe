@@ -8,6 +8,15 @@ const Portfolio = () => {
   const [projects, setProjects] = useState([
     {
       title: "Movies World",
+      image: "./cliniora.png",
+      stackDescription:
+        "Next.js 16 (App Router) | TypeScript | TypeScript | Supabase | Stripe | Resend | Vercel",
+      projectDescription:        "Cliniora — Clinical Scheduling SaaS Online scheduling platform for healthcare professionals in Portugal. Allows clinics to receive appointments 24 hours a day through a personalized public page, eliminating dependence on the telephone and WhatsApp.",
+      pageLink: "https://www.cliniora.pt/",
+      githubLink: "https://github.com/fmonteiroguerra/",
+    },
+       {
+      title: "Movies World",
       image: "./preview.png",
       stackDescription:
         "React | Javascript | RESTful Api (TMDB API) | Vite | Tailwind CSS | Material UI (Modal) | react-use (useDebounce)",
