@@ -10,7 +10,7 @@ const Portfolio = () => {
       title: "Cliniora — Clinical Scheduling SaaS",
       image: "./cliniora.jpg",
       stackDescription:
-        "Next.js 16 (App Router) | TypeScript | TailwindCSS | Supabase | Stripe | Resend | Vercel",
+        "Next.js 16 (App Router) | TypeScript | TailwindCSS | Supabase (PostgreSQL) | Stripe | Resend | Vercel",
       projectDescription:        "Online scheduling platform for healthcare professionals in Portugal. Allows clinics to receive appointments 24 hours a day through a personalized public page, eliminating dependence on the telephone and WhatsApp.",
       pageLink: "https://www.cliniora.pt/",
       githubLink: "https://github.com/fmonteiroguerra/",
